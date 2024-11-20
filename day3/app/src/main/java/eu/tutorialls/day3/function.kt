@@ -1,8 +1,10 @@
 package eu.tutorialls.day3
 
-import java.util.function.ToIntFunction
-
 fun main(){
+
+}
+
+fun askCoffee(){
     println("Who is this coffee for: ")
     val name= readln()
     println("How many cubes of sugar: ")
