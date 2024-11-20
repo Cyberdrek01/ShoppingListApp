@@ -1,12 +1,11 @@
 package eu.tutorialls.day4
-
+//67
 fun main(){
-    //Immutable list-cannot add items after initialization
-    //val shoppingList= listOf("Processor","RAM","Graphics Card","SSD")
-    //mutable list- can add items later and modify
-    val shoppingList= mutableListOf("Processor","RAM","Graphics Card","SSD")
-    //addin gitems in the list
-    shoppingList.add("colling system")
-    shoppingList.remove(element = "Graphics Card")
-    print(shoppingList)
+    val shoppingList= mutableListOf("Graphics card","RAM","SSD","Monitor")
+    for (item in shoppingList){
+        print(item)
+        if(item=="RAM"){
+            break
+        }
+    }
 }
